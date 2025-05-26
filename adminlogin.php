@@ -1,6 +1,5 @@
 <?php  session_start();    
 
-
 if(isset($_SESSION['use']))   
  {
     header("Location:result.php"); 
@@ -21,7 +20,7 @@ if(isset($_POST['login']))
             echo "invalid UserName or Password";        
         }
 }
- ?>
+?>
 <html>
 <head>
 <title> Login Page   </title>
@@ -93,9 +92,9 @@ border-radius:10px;
     height: 295px;
     width: 503px;    
         }
-
 </style>
 </head>
+
 <body><center>
   <br><label><b><h1 class="hp">Admin Log-in</h1></b></label>
 <div class="top">
